@@ -3,84 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Landing Page</title>
 </head>
 <body>
     <header>
-        <div class="left-links">
-            <p class="logo">LOGO</p>
+        <div class="header-container">
+            <div class="header-logo">Header Logo</div>
+            <nav class="header-links">
+                <a href="#">header link one</a>
+                <a href="#">header link two</a>
+                <a href="#">header link three</a>
+            </nav>
         </div>
-
-        <ul>
-            <li><a href="">link one</a></li>
-            <li><a href="">link two</a></li>
-            <li><a href="">link three</a></li>
-        </ul>
     </header>
 
-    <div class="main">
-        <div class="intro">
-            <div class="intro-text">
-                <h1>This website is awesome</h1>
-                <p class="sub-text">This website has some subtext that gooes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button class="sign-up">Sign up</button>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <a href="#" class="button">Sign up</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/pexels-pixabay-459451.jpg" alt="beautiful pic" class="hero-img">
+        </div>
+        
+    </section>
+
+    <section class="information">
+        <h2>Some random information.</h2>
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="card-image">
+                    <img src="images/pexels-yury-oliveira-511533364-28173032.jpg" alt="picture of a girl" class="card-img">
+                </div>
+                <p>pretty girl</p>
             </div>
-            <div class="image">
-                <p></p>
+            <div class="info-card">
+                <div class="card-image">
+                    <img src="images/pexels-yury-oliveira-511533364-28173032.jpg" alt="picture of a girl" class="card-img">
+                </div>
+                <p>pretty girl</p>
+            </div>
+            <div class="info-card">
+                <div class="card-image">
+                    <img src="images/pexels-yury-oliveira-511533364-28173032.jpg" alt="picture of a girl" class="card-img">
+                </div>
+                <p>pretty girl</p>
+            </div>
+            <div class="info-card">
+                <div class="card-image">
+                    <img src="images/pexels-yury-oliveira-511533364-28173032.jpg" alt="picture of a girl" class="card-img">
+                </div>
+                <p>pretty girl</p>
             </div>
         </div>
+    </section>
 
-        <div class="content">
-            <h2>Some random information</h2>
-            <div class="cards">
-                <div class="card">
-                    <div class="content-img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <div class="content-img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <div class="content-img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <div class="content-img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-            </div>
-        </div>
-
+    <section class="quote-section">
         <div class="quote">
-            <p>The only thing humans are equal in is death.</p>
-            <p class="author">-Johan Liebert</p>
+            "There's Nothing Special About Being Born." 
         </div>
+        <div class="quote-author">
+            -Johan Liebert
+        </div>
+    </section>
 
-        <div class="sign-up-section">
-            <div class="text">
-                <p><b>Call to action! It's time!</b></p>
-                <p class="small">Sign up for our product by clicking that button right over there!</p>
+    <section class="cta-section">
+        <div class="cta-container">
+            <div class="cta-text">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
             </div>
-            <button class="sign-up">Sign up</button>
+            <a href="#" class="button outline">Sign up</a>
         </div>
-    </div>
+    </section>
 
     <footer>
-        <p>Copyright <span>&#169;</span> The Odin Project 2021</p>
+        <p>Copyright © The Odin Project 2021</p>
     </footer>
-
-
-
-
-
-
-
-
-
-    </div>
-
-
 </body>
 </html>
